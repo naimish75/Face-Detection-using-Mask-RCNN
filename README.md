@@ -6,6 +6,8 @@ Instance segmenting more than 2 classes in an image,where image dataset is from 
   
   
 
+
+ <h2># Make sure you make a new folder with name as "main" and move "dataset, logs, Mask_RCNN, mask_rcnn_coco.h5" in the folder to avoid path changes</h2>
 <h3># Train a new model starting from pre-trained COCO weights</h3>
         python final.py train --dataset=/path/to/datasetfolder --weights=coco
 
